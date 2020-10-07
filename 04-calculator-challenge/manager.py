@@ -10,7 +10,8 @@ while(True):
     a = int(input("What is the first number of your " + action + "? "))
     b = int(input("What is the second number of your " + action + "? "))
     if(action == "sum"):
-        print(calculator.sum(a,b))
+        result = calculator.sum(a,b)
+        print(result)
     if(action == "substract"):
         print(calculator.substract(a,b))
     if(action == "divide"):
