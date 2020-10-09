@@ -14,7 +14,7 @@ When we talk about importing in computer science, we are talking about using cod
 - Let's create a file called `tools.py`
 - Let's create another file called `workshop.py`
 - We will define tools in the tools file that can be used in the workshop
-- Let's begin by creating a hammer:
+- Let's begin by creating a nail
 ```python
 
 ```
