@@ -102,3 +102,16 @@ qrumpet2 = Qrumpet("qrumpet-like shape", 15, taste="bad and moldy")
 ```
 
 Note that I have written `taste="bad and moldy"` for the optional attribute. That would not be necessary. However, when we have many optional attributes, if I only want to set a few, that's the easiest way to do it!
+
+# Challenge
+
+Create a new file called `qrumpet.py`. Create the following classes with the components specified:
+- `Qrumpet`
+  - A string property called `shape` with default value `"round"`
+  - A string property called `taste` with default value `"amazing"`
+- `Bike`
+  - A boolean property called `biking` with default value `False`
+- `Pipe`
+  - A boolean property called `in_use` with default value `False`
+  - An integer property called `dirt` with default value `0`
+- 
